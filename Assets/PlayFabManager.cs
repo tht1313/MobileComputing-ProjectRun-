@@ -10,11 +10,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayFabManager : MonoBehaviour
 {
-
+public Text messageText;
     public TMP_InputField emailinput;
     public TMP_InputField passwordinput;
 
      public TMP_InputField emailinput1;
+
+     public TMP_InputField emailinput2;
     public TMP_InputField passwordinput1;
 
 
@@ -47,6 +49,20 @@ PlayFabClientAPI.LoginWithEmailAddress(request , OnLoginSucces , OnError);
     void Start()
     {
         Login(); 
+    }
+
+    public void ResetPasswordButton(){
+
+        var request = new SendAccountRecoveryEmailRequest{
+            Email=emailinput2.text,
+            TitleId = "DFEF9"
+        };
+
+        PlayFabClientAPI.SendAccountRecoveryEmail(request , OnPasswordReset , OnError);
+
+    }
+    void OnPasswordReset(SendAccountRecoveryEmailResult result){
+        messageText.text = "Password Reset";
     }
 
 void Login(){
