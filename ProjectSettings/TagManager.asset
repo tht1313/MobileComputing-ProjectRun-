@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Anima
+  - Fiamma
+  - Protagonista
+  - Ostacoli
+  - Nemici
+  - Bordo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Terreno
+  - Sfondo
+  - Nemici
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sfondo
+    uniqueID: 2638933673
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terreno
+    uniqueID: 2588357985
+    locked: 0
