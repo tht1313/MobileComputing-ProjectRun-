@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Build by: Thunder'
+  m_text: 'Build by: Stefano'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 90ca15cf3aba8024598d60701c396b70, type: 2}
   m_sharedMaterial: {fileID: 9104157360932284967, guid: 90ca15cf3aba8024598d60701c396b70, type: 2}
